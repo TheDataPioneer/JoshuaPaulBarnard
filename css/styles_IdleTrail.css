@@ -1,0 +1,426 @@
+
+@media only screen and (max-width: 767px) {
+#header {
+display: none;
+}
+
+.nav-logo-mobile {
+border: none !important;
+}
+
+.nav-logo-mobile img {
+height: 30px;
+}
+
+.nav-toggle {
+display: flex !important;
+justify-content: center;
+background: #3b3b3a !important;
+cursor: default !important;
+}
+
+.nav-toggle:before {
+padding: 0 !important;
+margin: 0 !important;
+content: none !important;
+}
+}
+
+
+
+html {
+height: 100%;
+}
+
+body {
+padding: 0;
+margin: 0;
+border: 0;
+height: 100%;
+overflow: hidden;
+font-family: Courier !important;
+background-color: #5F9FFF;
+}
+
+.hidden {
+display: none;
+}
+
+#home {
+background-color: red;
+}
+
+#journey {
+height: 100%;
+background-color: rgb(11, 69, 2);
+}
+
+#event {
+background-color: magenta;
+}
+
+#progress-area {
+float: left;
+position: relative;
+width: 95vw;
+margin: 10px;
+}
+
+#trees {
+height: 100%;
+width: 100%;
+image-rendering: pixelated;
+background-color: rgb(135, 206, 235);
+}
+
+#caravan {
+height: 45%;
+width: 10%;
+position: absolute;
+bottom: 30%;
+left: 5%;
+}
+
+#stats-area {
+background-color: white;
+float: left;
+height: 150px;
+width: 156px;
+margin: 10px;
+padding: 10px;
+font-size: 14px;
+line-height: 1em !important;
+}
+
+.stat-value {
+float: right;
+}
+
+#updates-area {
+background-color: white;
+float: left;
+width: 350px;
+margin: 10px;
+height: 150px;
+padding: 10px;
+font-size: 12px;
+overflow-y: scroll;
+line-height: 1em;
+}
+
+.update-positive {
+color: #669966;
+}
+
+.update-negative {
+color: red;
+}
+
+.update-neutral {
+color: #90908F;
+}
+
+#shop {
+float: left;
+background-color: white;
+margin: 10px;
+padding: 10px;
+width: 350px;
+line-height: 1em !important;
+}
+
+.product {
+float: left;
+margin: 5px;
+padding: 2px;
+border: 1px solid black;
+font-size: 12px;
+}
+
+#shop button {
+clear: both;
+float: left;
+margin: 5px;
+}
+
+#attack {
+float: left;
+background-color: white;
+margin: 10px;
+padding: 10px;
+height: 60px;
+width: 150px;
+}
+
+#header-container {
+background-color: #3B3B3A;
+}
+
+.site-title, .site-description {
+display: none !important;
+}
+
+#wrapper {
+height: 100%;
+}
+
+#inner-wrapper {
+height: 100%;
+}
+
+#navigation {
+background-color: #3b3b3a !important;
+}
+
+#main-nav a {
+font: normal 14px/1.2em 'Oswald', arial, sans-serif;
+color: #ffffff;
+}
+
+.wpml-btn {
+font: normal 14px/1.2em 'Oswald', arial, sans-serif;
+color: #fff !important;
+}
+
+#main-nav a:hover, .wpml-btn:hover {
+background: rgba(255, 255, 255, 0.2) !important;
+}
+
+#main-nav li:hover {
+background-color: #3B3B3A !important;
+}
+
+.nav-header-btn div {
+background: rgb(61, 184, 207) !important;
+}
+
+.full-width #navigation ul li:first-child, .full-width #navigation ul li:first-child a {
+border-radius: 0 !important; }
+
+html body * span.clear, html body * div.clear, html body * li.clear, html body * dd.clear {
+background: none;
+border: 0;
+clear: both;
+display: block;
+float: none;
+font-size: 0;
+list-style: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+visibility: hidden;
+width: 0;
+height: 0; }
+
+/* http://sonspring.com/journal/clearing-floats */
+/* Fix fieldset width in IE */
+fieldset {
+display: block;
+width: 100%; }
+
+/* 2.7 Full Width */
+body.full-width,
+body.full-width #inner-wrapper {
+padding: 0; }
+
+body.full-width #wrapper {
+padding: 0;
+min-width: 100% !important;
+width: 100%; }
+
+body.full-width #header,
+#nav-container,
+body.full-width #content,
+body.full-width #footer-widgets,
+body.full-width #footer {
+padding-left: 1.618em;
+padding-right: 1.618em; }
+
+body.full-width #top {
+padding: 0;
+margin: 0; }
+
+body.full-width .nav-toggle {
+margin: 0; }
+
+#nav-container {
+border: 1px solid #d9d9d9;
+border-width: 1px;
+background: #f0f0f0;
+margin: 0; }
+#nav-container::after {
+clear: both;
+content: "";
+display: table; }
+
+#nav-container #navigation {
+margin-bottom: 0;
+border: none;
+border-radius: 0; }
+
+#nav-container #navigation ul#main-nav > li:first-child {
+border-left: 1px solid #DBDBDB; }
+
+@media only screen and (min-width: 768px) {
+#nav-container {
+margin: 0 0 3em 0; } }
+
+
+
+/* Main Containers */
+body, p {
+font-weight: 400!important;
+}
+
+.entry, .entry p {
+font-family: 'Open Sans'!important;
+}
+
+#wrapper {
+min-height: 100%;
+background: #3B3B3A;
+}
+
+a:link {
+font-weight: 400!important;
+}
+
+@media only screen and (max-width: 767.99px) {
+#wrapper {
+    background: #f0f0f0!important;
+}
+}
+
+#inner-wrapper {
+min-height: 100%;
+background: white;
+z-index: 0;
+}
+
+#main {
+width: 100%!important;
+}
+
+#content {
+min-height: 450px;
+}
+
+.zva-full-img {
+width: 100%;
+height: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+/* END Main Containers */
+
+/* Reusable classes */
+
+/* flex responsive 2 column */
+.column-container {
+display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+.responsive-2-column {
+    flex: 50%;
+}
+
+.hide-on-desktop {
+    display: none;
+}
+}
+
+@media only screen and (max-width: 767.99px) {
+.column-container {
+    flex-direction: column;
+}
+
+.hide-on-mobile {
+    display: none;
+}
+}
+
+.bold {
+font-weight: 600 !important;
+}
+
+.button-green {
+background: #019B83!important;
+color: white!important;
+}
+
+.button-xlarge {
+font-family: "Oswald"!important;
+text-transform: uppercase;
+padding: 14px 24px!important;
+font-size: 20px!important;
+border-radius: 0px!important;
+border: 0px!important;
+cursor: pointer;
+overflow: visible;
+width: auto;
+}
+
+.button-xlarge:hover {
+opacity: 0.8;
+text-decoration: none;
+}
+
+@media only screen and (max-width: 767.99px) {
+.button-xlarge {
+    display: block;
+}
+}
+
+
+
+/* END Reusable classes */
+
+
+/* Main Containers */
+body, p {
+font-weight: 400!important;
+}
+
+.entry, .entry p {
+font-family: 'Open Sans'!important;
+}
+
+#wrapper {
+min-height: 100%;
+background: #3B3B3A;
+}
+
+a:link {
+font-weight: 400!important;
+}
+
+@media only screen and (max-width: 767.99px) {
+#wrapper {
+    background: #f0f0f0!important;
+}
+}
+
+#inner-wrapper {
+min-height: 100%;
+background: white;
+z-index: 0;
+}
+
+#main {
+width: 100%!important;
+}
+
+#content {
+min-height: 450px;
+}
+
+.zva-full-img {
+width: 100%;
+height: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+/* END Main Containers */
