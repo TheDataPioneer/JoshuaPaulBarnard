@@ -216,28 +216,28 @@ img
 
 #portfolio-1
 {
-	background-color: #00bff3;
+	background-color: #eaf0e0;
   background-image: url(../images/Resume-Section-Image.png);
 }
 
 #portfolio-2
 {
-	background-color: #13290e;
+	background-color: #eaf0e0;
   background-image: url(../images/Section_Image-Projects.png);
 
 }
 
 #portfolio-3
 {
-  background-color: #f9bf3b;
+  background-color: #eaf0e0;
   background-image: url(../images/DataViz-Section-Image.png);
 }
 
 .portfolio-container
 {
 	position: relative;
-	width: 2320px;
-	height: 580px;
+	width: 3203px;
+	height: 744px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -246,10 +246,11 @@ img
 {
 	position: relative;
 	font-family: Arial;
-	color: #ffffff;
+	color: #000000;
 	font-size: 14px;
 	line-height: 18px;
 	margin-bottom: 20px;
+  -webkit-text-stroke: 2px white;
 }
 
 .portfolio-text-button-arrow
@@ -269,9 +270,9 @@ img
 	border-style: solid;
     border-width: 2px;
 	border-radius: 5px;
-	border-color: #ffffff;
+	border-color: #000000;
 	font-family: Arial;
-	color: #ffffff;
+	color: #000000;
 	font-size: 14px;
 	font-weight: bold;
 }
@@ -298,7 +299,7 @@ img
 {
 	position: relative;
 	font-family: miso-bold;
-	color: #ffffff;
+	color: #000000;
 	font-size: 70px;
 	line-height: 56px;
 	margin-bottom: 18px;
@@ -318,7 +319,7 @@ img
 {
 	font-weight: bold;
 	text-decoration: none;
-	color: #ffffff;
+	color: #000000;
 }
 
 @media (max-width:2000px ) {
