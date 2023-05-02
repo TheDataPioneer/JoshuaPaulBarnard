@@ -188,6 +188,21 @@ header
 	background-image: url(../images/icon-tableau.png);
 }
 
+.icon-wordpress
+{
+	background-image: url(../images/icon-wordpress.png);
+}
+
+.icon-researchgate
+{
+	background-image: url(../images/icon-researchgate.png);
+}
+
+.icon-github
+{
+	background-image: url(../images/icon-github.png);
+}
+
 img
 {
 	border-style: none;
