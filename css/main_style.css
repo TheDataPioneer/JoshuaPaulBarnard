@@ -248,19 +248,10 @@ img
 	position: relative;
 	font-family: Arial;
 	color: #000000;
-	font-size: 14px;
-	line-height: 18px;
-	margin-bottom: 20px;
-  -webkit-text-stroke: 2px white;
-}
-
-.portfolio-text-button-arrow
-{
-	position: relative;
-	width: 11px;
-	height: 16px;
-	margin-right: 8px;
-	background-image: url(../images/button-arrow.png);
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 26px;
+  -webkit-text-stroke: 1px white;
 }
 
 .portfolio-text-button
@@ -274,8 +265,9 @@ img
 	border-color: #000000;
 	font-family: Arial;
 	color: #000000;
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: bold;
+  -webkit-text-stroke: 1px white;
 }
 
 .portfolio-text-container
@@ -300,7 +292,7 @@ img
 {
 	position: relative;
 	font-family: miso-bold;
-	color: #ffffff;
+	color: #000000;
 	font-size: 70px;
 	line-height: 56px;
 	margin-bottom: 18px;
@@ -310,10 +302,10 @@ img
 {
 	position: relative;
 	font-family: Arial;
-	font-size: 14px;
+	font-size: 20px;
 	color: #cccccc;
-	line-height: 20px;
-	margin-bottom: 18px;
+	line-height: 26px;
+	margin-bottom: 24px;
 }
 
 .text a
