@@ -248,8 +248,8 @@ img
 	position: relative;
 	font-family: miso-bold;
 	color: #000000;
-	font-size: 70px;
-	line-height: 56px;
+	font-size: 120px;
+	line-height: 75px;
 	margin-bottom: 18px;
   -webkit-text-stroke: 1px #eaf0e0;
   font-weight:bold
@@ -260,7 +260,7 @@ img
 	position: relative;
 	font-family: Arial;
 	color: #000000;
-	font-size: 20px;
+	font-size: 36px;
 	line-height: 24px;
 	margin-bottom: 26px;
   -webkit-text-stroke: 1px #eaf0e0;
@@ -278,7 +278,7 @@ img
 	border-color: #000000;
 	font-family: Arial;
 	color: #000000;
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: bold;
   -webkit-text-stroke: 1px #eaf0e0;
 }
