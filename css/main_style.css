@@ -203,6 +203,11 @@ header
 	background-image: url(../images/icon-github.png);
 }
 
+.icon-youtube
+{
+	background-image: url(../images/icon-youtube.png);
+}
+
 img
 {
 	border-style: none;
