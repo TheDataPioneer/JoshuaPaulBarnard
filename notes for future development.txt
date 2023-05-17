@@ -1,0 +1,41 @@
+Notes for future development of portfolio website:  
+
+
+Forward URL joshuapaulbarnard.com to github
+
+
+
+Restructure the Sections of webpage:  
+
+Resume:
+This page will allow you 4 options in 2 sections:
+1) download the pdf/psd of the design-orientated resume
+2)  download pdf of classic-orientated resume, or link to the github repo.
+
+
+Data Vizualizations: 
+This page will have these sections:
+1)  Tableau
+2)  Wine aroma wheel on github
+3)  simple webdev dataviz on codepen
+
+
+
+Projects: 
+This page will have these sections:
+1)  SNAP Cats
+2)  Data Science project
+3)  Cornell course projects
+4)  photoshop holiday card psd's
+5)  My research
+6)  Games
+
+
+
+Coding:  
+This page will have 3 sections.
+1)  GitHub
+2)  Replit
+3)  CodePen
+4)  Gist   (?)
+
